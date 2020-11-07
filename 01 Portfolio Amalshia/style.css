@@ -1,0 +1,46 @@
+/*ml-auto = margin left:auto
+pt-4 = padding-top:4em
+pb-4 = padding-bottom:4em */
+body{
+font-family: 'Montserrat', sans-serif;}
+
+
+
+                        /* BARRE DE NAVIGATION  */
+
+.navbar{
+    border-bottom: 3px solid white;
+
+    /* */
+    z-index: 9999;
+    position: fixed !important;
+    top: 0 ;
+    width: 100%;
+}
+
+.navbar-brand{ font-size: 1.75em;
+font-weight: 700;
+text-transform: uppercase;}
+
+
+#navbarNav .nav-link{
+    color: white;
+    font-weight: 700;
+    padding: 0 20px;
+    padding: 5px 10px;}
+
+
+#navbarNav .nav-link:hover{
+    color: #000000;
+    background: linear-gradient(to top,
+     rgb(34, 223, 97),
+     #0f0f11 5%,
+     rgb(42, 74, 161) 7%,
+     #ffffff 15%);
+    border-radius: 15px;}
+
+
+
+
+
+
