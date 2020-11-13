@@ -175,6 +175,9 @@ text-transform: uppercase;}
 .envoyermail{
     text-transform: uppercase;}
 
+.TextContact{
+    min-height: 100px;
+}
 
 .contact .Send{
     margin: 15px;
