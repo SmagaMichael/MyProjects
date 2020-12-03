@@ -10,117 +10,67 @@ include '../../Includes/header.php';
 
     <div class="backgroundCover">
         <div class="cover">
-            <img src="avatar1.png" class="avatar">
-            <div class="titre col-12 col-md-6 col-lg-3">
+            <!-- AVATAR -->
+            <img src="img/avatar1.png" class="avatar col-12 col-md-6 col-lg-3">
+            <!-- Titre + TEXTE ANIMATION -->
+            <div class="titre col-12 col-md-6 col-lg-4">
                 <h1>Amalshia</h1> 
                 <p>Illustratrice</p>  
                 <div class="MyDescription ">
-                    <p ID=bloc></p>
                     <p ID="MyTextDescription">Coucou, je m'appelle Amalshia et je veux vous faire découvrir ma passion pour l'illustration à travers ce site que je mettrais à jour fréquemment.
-                    
                      Ce site à pour but de vous faire partager mes créations et aussi me faire connaitre dans ce milieu afin de faire de ma passion ma vocation. Merci de votre visite, j'espère que mes créations vous plairont 😊</p>
+                </div>
+            </div>
+            <!-- EXEMPLE DE CREATION -->           
+            <div class="LastCreaDiv col-12 col-md-6 col-lg-5">
+                <h3>Mes dernières créations</h3>
+                <div class="LastCrea ">
+                    <img src="" alt="">
+                    <img src="" alt="">
                 </div>
             </div>
         </div>
     </div>
-
-
-<SCRIPT LANGUAGE=JavaScript>
-//on récupère le contenu du texte dans la ballise P ID="MyTextDescription"
-var TexteEntier = document.getElementById('MyTextDescription').innerText;
-//On récupére le nombre de caractère du contenu
-var nombre_de_lettre = TexteEntier.length; 
-
-//On ajoute chaque lettre dans un tableau 
-var tableau = TexteEntier.split("");
-
-texte = new Array;
-var txt = '';
-var nb_msg = nombre_de_lettre - 1;
-console.log(txt);
-
-
-//pour i = 0 on incrémente jusqu'à ce qu'on ai atteint le nombre de lettre du contenu
-for (i=0;  i < nombre_de_lettre;  i++) {
-texte[i] = txt+tableau[i];
-var txt = texte[i];
-
-
-
-console.log(txt);
-
-}
-
-actual_texte = 0;
-
-function changeMessage(){
-document.getElementById("MyTextDescription").innerHTML = texte[actual_texte];
-actual_texte++;
-if(actual_texte >= texte.length)
-actual_texte = nb_msg;
-}
-
-
-setInterval("changeMessage()",40) /* la vitesse de defilement (plus on a une valeur faible plus 
-texte s'affiche rapidement) */
-</SCRIPT>
-
-
-
-
+<br>
 
 
                 <!-- Partie STYLE-->
     <div class="bg-style">
-            <h2 >Mes différents styles</h2>
-
         <div class="row"> <!--bootstrap fonctionne sur une grille de 12 On peut donc avoir une row avec 4 colonnes de 3-->
             
             <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="position-relative">
-                    <a href="../Page1_Traditionnel/index.php"  data-target="#project-4">
-                        <div class="filter"> <!--Calque sur image--> </div>
-                    </a>
+                <a href="../Page1_Traditionnel/index.php">
                     <div class=" CaseStyle projet4">
-                        <p> Traditionnel</p>
+                        <img src="img/traditionnel.png" class="buttonMenu"alt="">
                     </div>
-                </div>
+                </a>     
+            </div>
+        
+
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <a href="../Page2_Digital/index.php" >
+                    <div class=" CaseStyle projet4">
+                        <img src="img/digital.png" class="buttonMenu"alt="">
+                    </div>
+                </a>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="position-relative">
-                    <a href="../Page2_Digital/index.php"  data-target="#project-4">
-                        <div class="filter"> <!--Calque sur image--> 
-                        </div>
-                    </a>
+                <a href="../Page3_Professionel/index.php">
                     <div class=" CaseStyle projet4">
-                        <p> Digital</p>
+                        <img src="img/Professionnel.png" class="buttonMenu"alt="">
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="position-relative">
-                    <a href="../Page3_Peintures/index.php" data-target="#project-4">
-                        <div class="filter"> <!--Calque sur image--> 
+                    <a href="../Page4_Shop/index.php">
+                        <div class=" CaseStyle projet4">
+                            <img src="img/starwhite.png" class="buttonMenu"alt="">
                         </div>
-                    </a>
-                    <div class=" CaseStyle projet4">
-                        <p>Peintures</p>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="position-relative">
-                    <a href="../Page4_Professionel/index.php" data-target="#project-4">
-                        <div class="filter"> <!--Calque sur image--> 
-                        </div>
                     </a>
-                    <div class=" CaseStyle projet4">
-                        <p>Professionnel</p>
-                    </div>
-                </div>
+                    
             </div>
         </div> <!--Fin de la div Row-->
     </div> <!--fin backgroundCover-->
@@ -168,7 +118,11 @@ texte s'affiche rapidement) */
 
             <br/><br/><br/>
     </div>
+    <a href="">
+    
 
+    </a>
+    
 
     <?php 
         include '../../Includes/footer.php';

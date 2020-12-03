@@ -14,7 +14,7 @@ include '../../Includes/header.php';
         
         <div class="col-12 col-md-6 col-lg-6 mb-4">
             <div class="position-relative">
-                <a href="#" data-toggle="modal" data-target="#project-4">
+                <a href="../Page2_Digital_Portrait/index.php">
                     <div class="filter"> <!--Calque sur image--> </div>
                 </a>
                 <div class=" CaseStyle projet4">
@@ -25,7 +25,7 @@ include '../../Includes/header.php';
 
         <div class="col-12 col-md-6 col-lg-6 mb-4">
             <div class="position-relative">
-                <a href="#" data-toggle="modal" data-target="#project-4">
+                <a href="../Page2_Digital_Illustrations/index.php">
                     <div class="filter"> <!--Calque sur image--> 
                     </div>
                 </a>

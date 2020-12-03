@@ -8,7 +8,7 @@ include '../../Includes/header.php';
 
     <div class="bg-style">
         <h2 >Mes différents styles</h2>
-        <h2 >Peintures</h2>
+        <h2 >Mes projets professionel</h2>
 
     <div class="row"> <!--bootstrap fonctionne sur une grille de 12 On peut donc avoir une row avec 4 colonnes de 3-->
         
@@ -18,7 +18,7 @@ include '../../Includes/header.php';
                     <div class="filter"> <!--Calque sur image--> </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p> photo peinture</p>
+                    <p> photo Pro</p>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p> photo peinture</p>
+                    <p> photo Pro</p>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p>photo peinture</p>
+                    <p>photo Pro</p>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p>photo peinture</p>
+                    <p>photo Pro</p>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p>photo peinture</p>
+                    <p>photo Pro</p>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p>photo peinture</p>
+                    <p>photo Pro</p>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@ include '../../Includes/header.php';
                     <div class="filter"> <!--Calque sur image--> </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p> photo peinture</p>
+                    <p> photo Pro</p>
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p> photo peinture</p>
+                    <p> photo Pro</p>
                 </div>
             </div>
         </div>
@@ -118,7 +118,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p>photo peinture</p>
+                    <p>photo Pro</p>
                 </div>
             </div>
         </div>
@@ -130,7 +130,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p>photo peinture</p>
+                    <p>photo Pro</p>
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p>photo peinture</p>
+                    <p>photo Pro</p>
                 </div>
             </div>
         </div>
@@ -154,7 +154,7 @@ include '../../Includes/header.php';
                     </div>
                 </a>
                 <div class=" CaseStyle projet4">
-                    <p>photo peinture</p>
+                    <p>photo Pro</p>
                 </div>
             </div>
         </div>

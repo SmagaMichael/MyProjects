@@ -17,7 +17,7 @@
     <!--lien vers la base de donnée d'icone-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="../../Extension (framework)/bootstrap.min.css">
-    <link rel="stylesheet" href="script.js">
+    
 </head>
 
 
@@ -45,11 +45,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../Page3_Peintures/index.php">Peintures</a>
+                        <a class="nav-link" href="../Page3_Professionel/index.php">Professionnel</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link profess" href="../Page4_Professionel/index.php">Professionnel</a>
+                        <a class="nav-link profess" href="../Page4_Shop/index.php">Shop</a>
                     </li>
 
                     <li class="nav-item">
