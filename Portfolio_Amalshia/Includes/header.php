@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Amalshia</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../Extension (framework)/bubble.css">
+    
 
 
     <!--permet de charger tout les composants à partir du serveur de bootstrap -->

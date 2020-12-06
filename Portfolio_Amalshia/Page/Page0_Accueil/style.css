@@ -4,6 +4,8 @@
     margin-top: 60px;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
     
 /*PARTIE HAUTE */
@@ -15,22 +17,29 @@
     display: flex;
     flex-wrap: wrap;
     background-color: black;
-    background-repeat: no-repeat;
     border-bottom:1px solid white;  
+    justify-content: center;
 }
+
+
+
 /*Titre + TEXTE ANIMATION */
 .titre{
     text-align: center;
-    color:#053342;
+    align-items: center;
+    display: flex;
+    
 }
 
 .titre h1{
+    color:#053342;
     font-size: 5vw;
     font-weight: 700;
     font-family: 'Marck';
 }
 .MyDescription{
     color: white;
+  
 }
 
 /* RESPONSIVE AVATAR */
@@ -42,6 +51,11 @@
 .avatar{width: 440px;}
 }
                 
+
+
+
+
+
 /* MES DERNIERES CREATIONS */
 .LastCreaDiv h3{
     text-align: center;
@@ -53,7 +67,12 @@
 
 .LastCrea{
     width: 100%;
-    border :1px solid white;
+    border :1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
     

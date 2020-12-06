@@ -18,8 +18,9 @@ include '../../Includes/header.php';
                 <a href="../Page1_Traditionnel_Portraits/index.php" >
                     <div class="filter"> <!--Calque sur image--> </div>
                 </a>
-                <div class=" CaseStyle projet4">
-                    <p> Portraits</p>
+                <div class=" CaseStyle ">
+                    <img src="img/Tradi_Portrait03_2019.png" alt="" >
+                    <p class="Subtitle"> Portraits</p>
                 </div>
             </div>
         </div>
@@ -30,20 +31,24 @@ include '../../Includes/header.php';
                     <div class="filter"> <!--Calque sur image--> 
                     </div>
                 </a>
-                <div class=" CaseStyle projet4">
-                    <p> Marqueurs</p>
+                <div class=" CaseStyle ">
+                    
+                    <p class="Subtitle"> Marqueurs</p>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
+
             <div class="position-relative">
                 <a href="../Page1_Traditionnel_Crayons/index.php" >
                     <div class="filter"> <!--Calque sur image--> 
                     </div>
                 </a>
-                <div class=" CaseStyle projet4">
-                    <p>Crayons</p>
+                <div class=" CaseStyle ">
+                    <img src="img/Tradi_crayons04_2020.png" alt="" >
+                    <p class="Subtitle"> Crayons</p>
+
                 </div>
             </div>
         </div>
@@ -54,8 +59,8 @@ include '../../Includes/header.php';
                     <div class="filter"> <!--Calque sur image--> 
                     </div>
                 </a>
-                <div class=" CaseStyle projet4">
-                    <p>Linearts</p>
+                <div class=" CaseStyle ">
+                    <p class="Subtitle">Peintures</p>
                 </div>
             </div>
         </div>

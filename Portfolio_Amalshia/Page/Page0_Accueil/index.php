@@ -12,23 +12,19 @@ include '../../Includes/header.php';
         <div class="cover">
             <!-- AVATAR -->
             <img src="img/avatar1.png" class="avatar col-12 col-md-6 col-lg-3">
+
             <!-- Titre + TEXTE ANIMATION -->
-            <div class="titre col-12 col-md-6 col-lg-4">
-                <h1>Amalshia</h1> 
-                <p>Illustratrice</p>  
-                <div class="MyDescription ">
-                    <p ID="MyTextDescription">Coucou, je m'appelle Amalshia et je veux vous faire découvrir ma passion pour l'illustration à travers ce site que je mettrais à jour fréquemment.
-                     Ce site à pour but de vous faire partager mes créations et aussi me faire connaitre dans ce milieu afin de faire de ma passion ma vocation. Merci de votre visite, j'espère que mes créations vous plairont 😊</p>
+            <div class="titre col-12 col-md-6 col-lg-3">
+                <div class="talk-bubble tri-right  round left-top">
+                    <div class="talktext ">
+                        <div class="MyDescription ">
+                            <p ID="MyTextDescription">Coucou, je m'appelle Amalshia et je veux vous faire découvrir ma passion pour l'illustration à travers ce site que je mettrais à jour fréquemment.
+                            Ce site à pour but de vous faire partager mes créations et aussi me faire connaitre dans ce milieu afin de faire de ma passion ma vocation. Merci de votre visite, j'espère que mes créations vous plairont 😊</p>
+                        </div>             
+                    </div>
                 </div>
             </div>
-            <!-- EXEMPLE DE CREATION -->           
-            <div class="LastCreaDiv col-12 col-md-6 col-lg-5">
-                <h3>Mes dernières créations</h3>
-                <div class="LastCrea ">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-            </div>
+            
         </div>
     </div>
 <br>
@@ -74,6 +70,20 @@ include '../../Includes/header.php';
             </div>
         </div> <!--Fin de la div Row-->
     </div> <!--fin backgroundCover-->
+
+<!-- EXEMPLE DE CREATION -->         
+    <div class="container">
+        <div class="LastCreaDiv col-12 col-md-6 col-lg-12">
+            <h3>Mes dernières créations</h3>
+            <div class="LastCrea ">
+                <img src="img/Tradi_crayons04_2020.png" alt="" class="col-6 col-md-6 col-lg-5">
+                <img src="img/Tradi_Portrait03_2019.png" alt="" class="col-6 col-md-6 col-lg-5">
+            </div>
+        </div>
+    </div>
+
+
+
                                         <!-- Partie CONTACT-->
     
     <p id="CONTACT"><br></p>                
@@ -122,8 +132,7 @@ include '../../Includes/header.php';
     
 
     </a>
-    
-
+  
     <?php 
         include '../../Includes/footer.php';
     ?>
