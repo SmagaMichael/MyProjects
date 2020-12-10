@@ -94,6 +94,8 @@ footer a:hover i{
 
     <script src="../../Extension (framework)/jquery-3.5.1.min.js"></script>
     <script src="../../Extension (framework)/bootstrap.bundle.min.js"></script>
+    <script src="../../Extension (framework)/lightbox.min.js"></script>
+
     <script src="script.js"></script>
 </body>
 </html>

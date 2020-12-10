@@ -45,10 +45,13 @@
 /* RESPONSIVE AVATAR */
 @media  (min-width: 991px) {
 .avatar{width: 500px;}
+.LastCreaDiv h3{font-size: 62px;}
+
 }
     
 @media (max-width: 990px) {
 .avatar{width: 440px;}
+.LastCreaDiv h3{font-size: 32px;}
 }
                 
 
@@ -59,7 +62,6 @@
 /* MES DERNIERES CREATIONS */
 .LastCreaDiv h3{
     text-align: center;
-    font-size: 3vw;
     font-weight: 700;
     font-family: 'Marck';
     color:#053342;

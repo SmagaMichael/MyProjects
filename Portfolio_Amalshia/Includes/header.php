@@ -7,6 +7,8 @@
     <title>Portfolio Amalshia</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../Extension (framework)/bubble.css">
+    <link rel="stylesheet" href="../../Extension (framework)/lightbox.min.css">
+
     
 
 

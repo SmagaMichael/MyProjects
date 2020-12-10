@@ -8,52 +8,57 @@ include '../../Includes/header.php';
 
                                     <!-- Partie photo de couverture-->
                                     <br><br>
-<div class="container">
-    <h1 class="title">Mes portraits aux crayons</h1>   
-</div>
 
+<div class="photo-gallery">
+        <div class="container">
+            
+            <div class="intro">
+                <h2 class="text-center">Mes portraits aux crayons</h2>
+                <p class="text-center">Description technique</p>
+            </div>
 
-<div class="GroupPicture  ">
-    <div class="BoxPicture col-12 col-md-6 col-lg-2">
-        <div class="DescripImage">
-            <p>Titre de la création</p>
-            <img src="img\Tradi_Portrait01_2019.png" alt=""> 
+            <div class="row photos">
+            
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="img\Tradi_Portrait01_2019.png" data-lightbox="photos">
+                        <img class="img-fluid" src="img\Tradi_Portrait01_2019.png">
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="img\Tradi_Portrait02_2019.png" data-lightbox="photos">
+                        <img class="img-fluid" src="img\Tradi_Portrait02_2019.png">
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="img\Tradi_Portrait03_2019.png" data-lightbox="photos">
+                        <img class="img-fluid" src="img\Tradi_Portrait03_2019.png">
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="img\Tradi_Portrait04_2019.png" data-lightbox="photos">
+                        <img class="img-fluid" src="img\Tradi_Portrait04_2019.png">
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="img\Tradi_Portrait05_2019.png" data-lightbox="photos">
+                        <img class="img-fluid" src="img\Tradi_Portrait05_2019.png">
+                    </a>
+                </div>
+
+            </div>
         </div>
     </div>
-
-    <div class="BoxPicture col-12 col-md-6 col-lg-2">
-        <div class="DescripImage">
-            <p>Titre de la création</p>
-            <img src="img\Tradi_Portrait02_2019.png" alt=""> 
-        </div>
-    </div>
-
-    <div class="BoxPicture col-12 col-md-6 col-lg-2">
-        <div class="DescripImage">
-            <p>Titre de la création</p>
-            <img src="img\Tradi_Portrait03_2019.png" alt=""> 
-        </div>
-    </div>
-
-    <div class="BoxPicture col-12 col-md-6 col-lg-2">
-        <div class="DescripImage">
-            <p>Titre de la création</p>
-            <img src="img\Tradi_Portrait04_2019.png" alt=""> 
-        </div>
-    </div>
-
-    <div class="BoxPicture col-12 col-md-6 col-lg-2">
-        <div class="DescripImage">
-            <p>Titre de la création</p>
-            <img src="img\Tradi_Portrait05_2019.png" alt=""> 
-        </div>
-    </div>
-
-    
-</div>
    
     <br>
 
 <?php 
     include '../../Includes/footer.php';
 ?>
+
+
+
+  
