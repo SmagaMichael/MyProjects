@@ -38,7 +38,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
 
-                <ul class="navbar-nav  ml-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link MenuTradi1" href="Page1_Traditionnel.php">Traditionnel</a>
                     </li>
@@ -92,7 +92,6 @@
             
         </div>
     </div>
-<br>
 
 
                 <!-- Partie STYLE-->

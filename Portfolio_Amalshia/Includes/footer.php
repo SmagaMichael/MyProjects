@@ -36,7 +36,7 @@
     
     <div class="bg-copyright text-center py-2">
         <div class="container">
-            <small class="m-0">Copyright &copy; Smaga Michaël 2020 </small>
+            <small class="m-0">Copyright &copy; <a href="https://smaga-michael.fr">Smaga Michaël 2020 </a> </small>
         </div>
     </div>
 

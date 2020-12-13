@@ -70,6 +70,7 @@ include '../../Includes/header.php';
             </div>
         </div>
     </div>
+    <br>
 
 <?php 
     include '../../Includes/footer.php';

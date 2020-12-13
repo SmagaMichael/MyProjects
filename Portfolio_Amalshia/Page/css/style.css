@@ -32,31 +32,19 @@ body{
 
 
 .navbar-nav{
-position: relative;
+display: flex;
+justify-content: center;
 }
-
-
-
 
 
 #navbarNav .nav-link:hover{
     border:2px solid #abe0f2;
     color: #ffffff;
-    background-color: #053342;
+    background-color: #141943;
     border-radius: 15px;
 }
 
-.profess{
-    margin-right: 100px;
-}
 
-.MenuTradi2{
-    position: absolute;
-    display: none;
-}
-.divsignature{
-    position: relative;
-}
 .signature{
     width: 300px;
     height: auto;
@@ -125,7 +113,7 @@ position: relative;
     border-bottom:2px  solid white;
     color: white;
     font-weight: 700;
-    padding: 20px 70px;
+    padding: 20px 50px;
 }
 
 }
@@ -250,7 +238,7 @@ position: relative;
 
 .contact-form .form-control{
     border:2px solid #abe0f2;
-    background-color: #053342;}
+    background-color: #141943;}
 
 .contact-form .form-control:focus{
         box-shadow: none;}
@@ -273,7 +261,7 @@ position: relative;
 /* FOOTER*/
 
 .bg-footer{
-    background-color: #053342 ; }
+    background-color: #141943 ; }
 
 footer{
     padding:1rem 0;
@@ -343,7 +331,7 @@ footer a:hover i{
         border: 1px solid #abe0f2;
         margin-top: 25px;
         border-radius: 60px;
-        background-color:#053342;
+        background-color:#141943;
     }
     
     .Subtitle{
@@ -395,7 +383,7 @@ footer a:hover i{
 
     .photo-gallery {
         color:#313437;
-        background: linear-gradient(#000, #053342 );
+        background: linear-gradient(#000, #141943 );
       }
       
       .photo-gallery p {
@@ -406,7 +394,7 @@ footer a:hover i{
         font-weight:bold;
         margin-bottom:40px;
         padding-top:40px;
-        color:#053342;
+        color:#126480;
         font-family: 'Marck';
         font-size:45px;
     

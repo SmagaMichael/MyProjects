@@ -27,20 +27,19 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark  pt-2 pb-2">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container ">
+            
             <a class="navbar-brand" href="Page0_Accueil.php">Amalshia</a>
             <!-- collapse = ouvrir/fermé le menu burger-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-
-
-                <ul class="navbar-nav  ml-auto">
+            <div class="collapse navbar-collapse container" id="navbarNav">
+                <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link MenuTradi1" href="Page1_Traditionnel.php">Traditionnel</a>
+                        <a class="nav-link" href="Page1_Traditionnel.php">Traditionnel</a>
                     </li>
 
                     <li class="nav-item">
@@ -52,7 +51,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link profess" href="Page4_Shop.php">Shop</a>
+                        <a class="nav-link " href="Page4_Shop.php">Shop</a>
                     </li>
 
                     <li class="nav-item">
@@ -60,6 +59,7 @@
                     </li>
                 </ul>
             </div>
+            
         </div>
     </nav>
     <br/>
